@@ -15,7 +15,7 @@ print(f"The factorial of (number) is (result).")
 #     - changes to commit means in git but not committed
 #     - nothing to commit means all added files have been committed already
 # git add ((filename.ext)) to add the file to git
-# git commit -m "message"  (the -m allows you to add a comment, to remember why you made the change.)
+# git commit -S -m "message"  (the -m allows you to add a comment, to remember why you made the change. -S signs using SSH key.)
 # git push origin ((branchname)) to push the changes to github -- must specify the branch you are pushing to (main, unless otherwise specified)
 #     - eg: git push origin main
 #     - must authenticate:  >github>profile> settings > developmer settings > classic token > generate new classic token
